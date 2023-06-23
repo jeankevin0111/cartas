@@ -85,7 +85,7 @@ class Juego {
     }
   
     cartama() {
-      if (this.totalMaquina < 17 || this.totalMaquina < this.totalJugador) {
+      if (this.totalMaquina < 18 || this.totalMaquina < this.totalJugador) {
         fetch('https://deckofcardsapi.com/api/deck/' + this.baraja + '/draw/?count=1')
           .then((response) => response.text())
           .then((html) => {

@@ -12,7 +12,7 @@ body{
 }
 .presenta{
     background-color: rgba(0, 0, 0, 0.184);
-    background-image: url(/templace/IMG_7947.svg);
+    background-image: url(templace/IMG_7947.svg);
     height: 120vh;
     background-size: 100% ;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body{
 
 }
 .cabecera h1{
-    background-image: url(/templace/trebol2.png);
+    background-image: url(templace/trebol2.png);
     background-position: 550px;
     background-size: 120px 50px !important;
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@ footer{
 }
 .muneca{
     position: absolute;
-    background-image: url(/templace/pngegg.png);
+    background-image: url(templace/pngegg.png);
     background-position: left bottom;
     background-size: 38%;
     background-repeat: no-repeat;
@@ -552,7 +552,7 @@ footer{
 
 .modal-content {
     background: #c70039;
-    background-image: url(/templace/fichas.png);
+    background-image: url(templace/fichas.png);
     background-repeat: no-repeat;
     background-position:right bottom;
     background-size: 220px 300px;
