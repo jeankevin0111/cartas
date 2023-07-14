@@ -12,11 +12,9 @@ const boton = document.querySelector('#Finalizar');
 const unaCarta = document.querySelector('#carta');
 const deten = document.querySelector('#Detener');
 
-let hola=[];
-console.log(hola);
 
-// const cartasJugador = document.getElementById('cartas-jugador');
-// const cartasMaquina = document.getElementById('cartas-maquina');
+const cartasJugador = document.getElementById('cartas-jugador');
+const cartasMaquina = document.getElementById('cartas-maquina');
 
 
 document.getElementById('empezar').addEventListener('click', empezar);
@@ -70,7 +68,7 @@ function carta() {
             imagen.src = resultado.cards[0].image;
             document.getElementById('cartas').appendChild(imagen);
             totalJugador += obtenerValorCarta(resultado.cards[0]);
-            // agregar1();
+            cartasJugador.appendChild(imagen);
             actualizarPuntos();
             validarganador();
             if (totalJugador <21){
@@ -142,7 +140,7 @@ function cartama() {
           imagen.src = resultado.cards[0].image;
           document.getElementById('cartasma').appendChild(imagen);
           totalMaquina += obtenerValorCarta(resultado.cards[0]);
-          // agregar();
+          cartasMaquina.appendChild(imagen);
           actualizarPuntosma();
           validarganador();
 
